@@ -1,2 +1,3 @@
 # PackageDumpify
-- [Dumpify]([https://www.litedb.org/docs/getting-started/](https://github.com/MoaidHathot/Dumpify))
+
+- [Dumpify](https://github.com/MoaidHathot/Dumpify)
