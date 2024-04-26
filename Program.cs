@@ -17,6 +17,22 @@ new Dictionary<string, string>
     ["Mikasa"] = "Ackerman",
 }.Dump();
 
+Blog blog2 = new Blog()
+{
 
+    Id = Guid.NewGuid().ToString(),
+    Author = "Test Author2",
+    Content = "Test Content2",
+    Title = "Test Title2"
+};
+blog2.Dump();
 
 Console.ReadKey();
+
+public class Blog
+{
+    public string Id { get; set; }
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public string Content { get; set; }
+}
