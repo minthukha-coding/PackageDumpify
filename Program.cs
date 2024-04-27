@@ -26,6 +26,15 @@ Blog blog2 = new Blog()
     Title = "Test Title2"
 };
 blog2.Dump();
+Blog blog3 = new Blog()
+{
+
+    Id = Guid.NewGuid().ToString(),
+    Author = "Test Author2",
+    Content = "Test Content2",
+    Title = "Test Title2"
+};
+blog3.Dump();
 
 Console.ReadKey();
 
